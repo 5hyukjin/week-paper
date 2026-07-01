@@ -42,25 +42,25 @@ export function LoginForm() {
       )}
 
       <div>
-        <label className="block text-sm font-medium mb-2">아이디</label>
+        <label className="block text-sm font-medium mb-2 text-gray-900">아이디</label>
         <input
           type="text"
           value={userId}
           onChange={(e) => setUserId(e.target.value)}
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 text-gray-900 placeholder-gray-400 bg-white"
           placeholder="아이디 입력"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-2">비밀번호</label>
+        <label className="block text-sm font-medium mb-2 text-gray-900">비밀번호</label>
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 text-gray-900 placeholder-gray-400 bg-white"
           placeholder="••••••"
         />
       </div>

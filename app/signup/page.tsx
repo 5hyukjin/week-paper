@@ -17,8 +17,8 @@ export default async function SignupPage() {
           <div className="flex justify-center mb-4">
             <Image src="/logo.png" alt="Joshua & Caleb" width={180} height={48} priority />
           </div>
-          <h1 className="text-2xl font-bold text-center mb-2">반월중앙교회</h1>
-          <p className="text-center text-gray-600 mb-8">청년부</p>
+          <h1 className="text-2xl font-bold text-center mb-2 text-gray-900">반월중앙교회</h1>
+          <p className="text-center text-gray-700 mb-8">청년부</p>
 
           <SignupForm />
         </div>

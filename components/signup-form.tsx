@@ -34,39 +34,39 @@ export function SignupForm() {
       )}
 
       <div>
-        <label className="block text-sm font-medium mb-2">아이디</label>
+        <label className="block text-sm font-medium mb-2 text-gray-900">아이디</label>
         <input
           type="text"
           value={userId}
           onChange={(e) => setUserId(e.target.value)}
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 text-gray-900 placeholder-gray-400 bg-white"
           placeholder="아이디 입력"
         />
         <p className="text-xs text-gray-500 mt-1">영문, 숫자, 한글, 언더스코어(_) 2~20자</p>
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-2">비밀번호</label>
+        <label className="block text-sm font-medium mb-2 text-gray-900">비밀번호</label>
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 text-gray-900 placeholder-gray-400 bg-white"
           placeholder="••••••"
         />
         <p className="text-xs text-gray-500 mt-1">최소 6자 이상</p>
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-2">비밀번호 확인</label>
+        <label className="block text-sm font-medium mb-2 text-gray-900">비밀번호 확인</label>
         <input
           type="password"
           value={passwordConfirm}
           onChange={(e) => setPasswordConfirm(e.target.value)}
           required
-          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"
+          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900 text-gray-900 placeholder-gray-400 bg-white"
           placeholder="••••••"
         />
       </div>
